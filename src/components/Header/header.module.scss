@@ -1,0 +1,40 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: '. . .';
+  top: 0;
+  position: sticky;
+  padding-bottom: 50px;
+
+  &.active {
+    h1 {
+      color: white;
+      opacity: 0.6;
+    }
+
+    .upButton {
+      display: block;
+    }
+  }
+
+  h1 {
+    font-size: 100px;
+    display: inline-block;
+    transition: 0.2s;
+  }
+
+  .backButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .upButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    transition: 0.2s;
+  }
+}

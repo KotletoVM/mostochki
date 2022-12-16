@@ -1,0 +1,126 @@
+@import './normalize';
+
+* {
+  font-family: 'Unbounded', cursive;
+}
+
+#root {
+  background-image: url('../assets/main.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  background-image: url('../assets/mostochek.png');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.1s;
+  overflow: hidden;
+  cursor: pointer;
+
+  .main {
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 30px;
+    padding: 70px 0 0 70px;
+  }
+
+  .main-text {
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.2s;
+  }
+
+  .desc-text {
+    line-height: 100px;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+    transform: translateX(1800px);
+    transition: 0.2s;
+  }
+
+  .quote {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 100px 0 0 120px;
+    transform: translateX(-2800px);
+    transition: 0.4s;
+  }
+
+  .navigationContainer {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .navigation {
+      background-color: white;
+      height: 100%;
+      width: 300px;
+      transform: translateX(300px);
+      transition: 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 30px;
+      padding-left: 20px;
+
+      &.active {
+        transform: translateX(0);
+      }
+
+      .buttonInNavi {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 30px;
+        text-align: left;
+      }
+    }
+
+    .naviButton {
+      margin: 105px 40px 0 0;
+      position: absolute;
+      background: none;
+      border: none;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+  }
+}
+
+.clicked {
+  backdrop-filter: brightness(30%) grayscale(100%);
+
+  .main-text {
+    color: #c18d0f;
+  }
+
+  .desc-text {
+    transform: translateX(0px);
+  }
+
+  .quote {
+    transform: translateX(0px);
+  }
+}

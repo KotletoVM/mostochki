@@ -1,0 +1,38 @@
+.photoApp {
+  background-color: white;
+  padding-bottom: 100px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.photoListContainer {
+}
+
+.photoList {
+  min-height: 100%;
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: '.';
+  row-gap: 10px;
+
+  .photoElement {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    img {
+      width: 650px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

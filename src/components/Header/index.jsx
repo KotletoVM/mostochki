@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './header.module.scss';
 
-function Header({ refProp }) {
+function Header() {
   const headerRef = useRef();
   let white = false;
   const navigate = useNavigate();

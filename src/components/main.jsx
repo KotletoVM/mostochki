@@ -28,10 +28,12 @@ function Main() {
     if (navi) {
       naviRef.current.classList.remove('active');
       buttonRef.current.style.transform = 'translateX(0)';
+      buttonRef.current.style.opacity = '1';
       navi = !navi;
     } else {
       naviRef.current.classList.add('active');
       buttonRef.current.style.transform = 'translateX(-300px)';
+      buttonRef.current.style.opacity = '0.6';
       navi = !navi;
     }
   }
@@ -65,7 +67,7 @@ function Main() {
               e.stopPropagation();
               navigate('/information');
             }}>
-            больше о мосточках
+            о слове
           </button>
           <button
             className="buttonInNavi"
@@ -75,6 +77,14 @@ function Main() {
             }}>
             фотографии
           </button>
+          <div>
+            <p>
+              малюсенький <br></br>пет-проектик :)
+            </p>
+            <p>
+              <a href="https://www.instagram.com/kotlet_spb/">@kotlet_spb</a>
+            </p>
+          </div>
         </div>
         <button className="naviButton" onClick={handleNaviClick} ref={buttonRef}>
           <svg

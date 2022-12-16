@@ -1,0 +1,16 @@
+.photoElement {
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  img {
+    width: 650px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

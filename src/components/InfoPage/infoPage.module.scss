@@ -2,9 +2,29 @@
   min-height: 100%;
   width: 100%;
   background-color: white;
-  padding-right: 50px;
-  padding-left: 50px;
 
-  h1 {
+  span {
+    color: #c18d0f;
+    font-weight: 600;
+  }
+  .infoContainer {
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+
+  .infoContainerChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    h1 {
+    }
+    h2 {
+      font-weight: 500;
+    }
   }
 }

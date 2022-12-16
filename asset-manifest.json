@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cf7dbd2.css",
+    "main.js": "/static/js/main.cbadb5a3.js",
+    "static/js/787.baf22074.chunk.js": "/static/js/787.baf22074.chunk.js",
+    "static/media/main.jpg": "/static/media/main.fa5cdbe54d2aa4594418.jpg",
+    "static/media/mostok_s_kotom.jpg": "/static/media/mostok_s_kotom.ada5219d7a1a02413cf6.jpg",
+    "static/media/mostok_v_blizi.jpg": "/static/media/mostok_v_blizi.e7271c63826f8899da39.jpg",
+    "static/media/mostochek.png": "/static/media/mostochek.468083065e4853b51fc2.png",
+    "static/media/default.jpg": "/static/media/default.6d628ba499a4e54586f2.jpg",
+    "static/media/kizhma.jpg": "/static/media/kizhma.4344908db5375c99bcf5.jpg",
+    "static/media/mezen.jpg": "/static/media/mezen.708aef2313b95c14acc4.jpg",
+    "index.html": "/index.html",
+    "main.7cf7dbd2.css.map": "/static/css/main.7cf7dbd2.css.map",
+    "main.cbadb5a3.js.map": "/static/js/main.cbadb5a3.js.map",
+    "787.baf22074.chunk.js.map": "/static/js/787.baf22074.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf7dbd2.css",
+    "static/js/main.cbadb5a3.js"
+  ]
+}

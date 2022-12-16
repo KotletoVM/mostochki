@@ -1,5 +1,3 @@
-import { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Header from '../Header';
 import styles from './infoPage.module.scss';
 function InfoPage() {

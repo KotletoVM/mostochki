@@ -1,5 +1,3 @@
-import { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import styles from './photoPage.module.scss';
 import photo1 from '../../assets/mostochki/mostok_s_kotom.jpg';
 import photo2 from '../../assets/mostochki/mostok_v_blizi.jpg';

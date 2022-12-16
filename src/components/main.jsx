@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../scss/app.scss';
 function Main() {
@@ -41,7 +41,7 @@ function Main() {
   useEffect(() => {
     appRef.current.addEventListener('click', handleClick);
     window.onresize = handleResize;
-  }, []);
+  });
   return (
     <div className="app" ref={appRef}>
       <div className="main">

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mostochki/static/css/main.b982fc71.css",
-    "main.js": "/mostochki/static/js/main.615ed3dd.js",
+    "main.css": "/mostochki/static/css/main.08e0ce2e.css",
+    "main.js": "/mostochki/static/js/main.37b15112.js",
     "static/js/787.baf22074.chunk.js": "/mostochki/static/js/787.baf22074.chunk.js",
-    "static/media/main.jpg": "/mostochki/static/media/main.fa5cdbe54d2aa4594418.jpg",
     "static/media/mostok_s_kotom.jpg": "/mostochki/static/media/mostok_s_kotom.ada5219d7a1a02413cf6.jpg",
     "static/media/mostok_v_blizi.jpg": "/mostochki/static/media/mostok_v_blizi.e7271c63826f8899da39.jpg",
-    "static/media/mostochek.png": "/mostochki/static/media/mostochek.468083065e4853b51fc2.png",
+    "static/media/main.jpg": "/mostochki/static/media/main.3a34182f3cebbb58ed17.jpg",
+    "static/media/mostochek.png": "/mostochki/static/media/mostochek.dbfc0d5aca31bfdeebe2.png",
     "static/media/default.jpg": "/mostochki/static/media/default.6d628ba499a4e54586f2.jpg",
     "static/media/kizhma.jpg": "/mostochki/static/media/kizhma.4344908db5375c99bcf5.jpg",
     "static/media/mezen.jpg": "/mostochki/static/media/mezen.708aef2313b95c14acc4.jpg",
     "index.html": "/mostochki/index.html",
-    "main.b982fc71.css.map": "/mostochki/static/css/main.b982fc71.css.map",
-    "main.615ed3dd.js.map": "/mostochki/static/js/main.615ed3dd.js.map",
+    "main.08e0ce2e.css.map": "/mostochki/static/css/main.08e0ce2e.css.map",
+    "main.37b15112.js.map": "/mostochki/static/js/main.37b15112.js.map",
     "787.baf22074.chunk.js.map": "/mostochki/static/js/787.baf22074.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b982fc71.css",
-    "static/js/main.615ed3dd.js"
+    "static/css/main.08e0ce2e.css",
+    "static/js/main.37b15112.js"
   ]
 }

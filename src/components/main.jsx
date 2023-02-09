@@ -15,8 +15,8 @@ function Main() {
   }
 
   function handleClick(e) {
-    console.log(e);
-    if (!e.path.includes(buttonRef.current)) {
+    const path = e.composedPath() || e.path;
+    if (!path.includes(buttonRef.current)) {
       clicked
         ? appRef.current.classList.remove('clicked')
         : appRef.current.classList.add('clicked');
@@ -39,7 +39,7 @@ function Main() {
   }
 
   useEffect(() => {
-    appRef.current.addEventListener('click', handleClick);
+    appRef.current.addEventListener('click', (e) => handleClick(e));
     window.onresize = handleResize;
   });
   return (
